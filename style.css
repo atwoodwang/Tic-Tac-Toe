@@ -1,0 +1,50 @@
+body{font-size:20px;font-family:cursive;font-weight: bold}
+
+table{
+    border-spacing: 5px;
+}
+td{
+    width:40px;
+    height:40px;
+    border: 1px solid;
+
+}
+
+fieldset {
+    height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    vertical-align:middle
+
+}
+
+legend{
+    font-size: 30px;
+    color:mediumseagreen;
+}
+
+div{
+    margin:50px;
+}
+
+#field{
+    float:left;
+}
+
+#panel{
+    float:left;
+}
+
+input[type=button]{
+    font-family: Times;
+    font-size:20px;
+    border-style: none;
+    height:30px;
+    width:100px;
+    font-weight:bold;
+}
+
+input[type=button]:hover{
+    background-color: mediumseagreen;
+    color:white;
+}

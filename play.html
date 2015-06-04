@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>first game</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+
+<div id="field">
+    <table>
+        <tr>
+            <td><img id="1" src="blank.png" alt=""/></td>
+            <td><img id="2" src="blank.png" alt=""/></td>
+            <td><img id="3" src="blank.png" alt=""/></td>
+        </tr>
+        <tr>
+            <td><img id="4" src="blank.png" alt=""/></td>
+            <td><img id="5" src="blank.png" alt=""/></td>
+            <td><img id="6" src="blank.png" alt=""/></td>
+        </tr>
+        <tr>
+            <td><img id="7" src="blank.png" alt=""/></td>
+            <td><img id="8" src="blank.png" alt=""/></td>
+            <td><img id="9" src="blank.png" alt=""/></td>
+        </tr>
+    </table>
+</div>
+<div id="panel">
+    <fieldset>
+        <legend>Who plays first?</legend>
+        <input type="radio" name="choose" value="you" checked="checked" onclick="set()"/>You
+        <input type="radio" name="choose" value="AI" onclick="set()"/>AI
+    </fieldset>
+    <fieldset>
+        <legend>Reset?</legend>
+        <input type="button" value="Reset" onclick="reset()"/>
+    </fieldset>
+</div>
+
+<script src="play.js"></script>
+</body>
+</html>
